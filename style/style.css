@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nameHeader{
+    font-size: 90px;
+    font-family: fantasy;
+    color: darkslateblue;
+}
+#section2{
+    width: 90%;
+    margin: auto;
+    margin-top: 13%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+#f1{
+    color: rgb(21, 22, 22);
+    font-family: fantasy;
+}
+.pass1{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 60px 0px 60px;
+    color: grey;
+}
+.section1{
+    /* border: 2px solid black; */
+    margin-top: 2%;
+}
+.section1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+.section1 ul li{
+    padding: 1%;
+    padding-left: 2%;
+    font-size: larger;
+    background-color: #808080b0;;
+    color: rgba(0, 0, 0, 0.584);
+}
+.section1 ul li:hover{
+    color: darkgrey;
+}
+.qualifica{
+    height: 250px;
+    margin-top: 10%;
+    background-color: #808080b0;
+    color:rgb(72, 69, 69);
+    padding: 2%;
+}
+.qualifica .acade{
+    float: left;
+    width: 60%;
+}
+.qualifica .skills{
+    float: left;
+    width: 40%;
+    border-left: 2px solid rgba(72, 69, 69, 0.478);
+}
+.qualifica .skills h3 ,.qualifica .skills li{
+   padding-left: 4%;
+}
+.qualifica div h3{
+    font-weight: 600; 
+    font-size: large;
+    color: rgba(0, 0, 0, 0.584);
+    background-color: #808080b0;
+}
+.qualifica div li{
+    list-style-type: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: large;
+    background-color: #808080b0;
+}
+.qualifica div{
+    margin-top: 3%;
+}
+.contact{
+    margin-top: 6%;
+    /* margin-bottom: 4%; */
+    display: flex;
+}
+.formHere{
+    width: 60%;
+    padding: 8% 12% 8% 12%;
+    background-color: #808080b0;
+}
+.contact .formHere div{
+    background-color: #808080b0;
+}
+.contact .formHere input{
+    padding: 3%;
+    margin: 2%;
+    width: 100%;
+    background-color: darkgrey;
+    border-style: none;
+    outline: none;
+    font-size: large;
+}
+.formHere input:focus{
+    border-style: none;
+}
+.formHere input::placeholder{
+    font-size: large;
+}
+.contact .formHere button{
+    padding: 2%;
+    margin: 2%;
+    width: 30%;
+    background-color: darkgrey;
+    font-size: large;
+    border-radius: 24px;
+    color: rgba(0, 0, 0, 0.584);
+    border: 2px solid #808080b0;
+}
+.formHere button:hover{
+   background-color: rgba(0, 0, 0, 0.584);
+   color: darkgrey;
+}
+.contact .faviconHere{
+    width: 40%;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+.faviconHere img{
+    width: 10%;
+    cursor: pointer;
+}
+
+.contact .faviconHere div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-top: 100%;
+}
+
+.contact .faviconHere div img{
+    padding: 8px;
+    width: 13%;
+    height: auto;
+}
+
+.footer p{
+    text-align: center;
+    color: rgb(72, 69, 69);
+    font-size: large;
+    padding: 20px;
+}
